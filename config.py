@@ -19,13 +19,13 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1003670001038))
 OWNER_ID = int(getenv("OWNER_ID", 7995626429))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Badnam019/KIRTI_PUBLIC",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TEAM-KRITI/KIRTI",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , 'xbit_2zRb8ED0Z_cdCpcHkrSaS8FzdrHxbWNC') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_93S-NHYcLZr7FzCnWl0i2JnDqhL8xd9H') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-YukkiMusic-08-30")
