@@ -50,12 +50,12 @@ async def init():
         pass
     await Sona.decorators()
     LOGGER("KIRTI_MUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗟𝗣𝗛𝗔☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗕𝗔𝗗𝗡𝗔𝗠☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("KIRTI_MUSIC").info("𝗦𝗧𝗢𝗣 𝗦𝗢𝗡𝗔𝗟𝗜 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧..")
+    LOGGER("KIRTI_MUSIC").info("𝗦𝗧𝗢𝗣 𝗞𝗜𝗥𝗧𝗜 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
