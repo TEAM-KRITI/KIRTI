@@ -1,4 +1,5 @@
 from typing import Union
+from config import OWNER_ID
 from KIRTI_MUSIC import app
 from KIRTI_MUSIC.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -67,19 +68,18 @@ def queue_back_markup(_, CPLAY):
 def aq_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙", url=f"https://t.me/{app.username}?startgroup=true")
         ],
         [
-            InlineKeyboardButton(
-                text="• ᴊσɪη ησω •", url=f"https://t.me/KIRTI_bot_update"
-            ),
-            InlineKeyboardButton(
-                text="• ɢʀᴏᴜᴘ ᴄʜᴀᴛ •", url=f"https://t.me/KIRTI_SUPPORT_GROUP"
-            ),
+            InlineKeyboardButton(text="ᴍᴜsɪᴄ-ʙᴏᴛ", url="https://t.me/Shivisongbot"),
+            InlineKeyboardButton(text="ᴀʟʟ-ʙᴏᴛs", url="https://t.me/Kirti_update"),
         ],
-      ]
+        [
+            InlineKeyboardButton(text="ᴘʀᴏᴍᴏ", user_id=OWNER_ID),
+            InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        ],
+    ]
+
     return buttons
+
+
